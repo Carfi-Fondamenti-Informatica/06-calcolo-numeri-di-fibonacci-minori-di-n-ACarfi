@@ -6,7 +6,7 @@ int main() {
     int a=1;
     int b=1;
     cin >> n;
-    cout << b << " " << b << " ";
+    cout << b << endl << b << endl;
     while(true){
         a += b;
         int c = b;
@@ -15,7 +15,7 @@ int main() {
         if(b > n){
             break;
         }
-        cout << b << " ";
+        cout << b << endl;
     }
     return 0;
 }
