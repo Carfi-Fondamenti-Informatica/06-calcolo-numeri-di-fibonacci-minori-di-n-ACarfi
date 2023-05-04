@@ -12,8 +12,8 @@ int main() {
         int c = b;
         b = a;
         a = c;
-        cout << b << " ";
         if(b > n){
+            cout << b << " ";
             break;
         }
     }
